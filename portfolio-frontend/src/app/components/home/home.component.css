@@ -1,0 +1,58 @@
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.home-content .highlight {
+  color: #00ffd5;
+}
+
+.home-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* white text instead of dark */
+  opacity: 0.9;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  color: #dddddd;
+}
+
+.resume-btn {
+  background-color: #00ffd5;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+body, .main-content {
+  padding-top: 70px; /* same as navbar height */
+}
+.home-section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 50px 20px 10px 20px; /* top right bottom left */
+}
+.home-content {
+  background-color: rgba(0, 0, 0, 0.2); /* optional light background effect */
+  padding: 40px 30px;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}

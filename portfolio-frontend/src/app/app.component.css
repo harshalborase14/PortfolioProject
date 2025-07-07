@@ -1,0 +1,21 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f1f1f; /* or your color */
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #bdbdbd;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #fcfcfc;
+}
+body, .main-content {
+  padding-top: 70px; /* same as navbar height */
+}

@@ -1,0 +1,66 @@
+.contact-wrapper {
+  max-width: 600px;
+  margin: 80px auto;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 255, 213, 0.2);
+  color: white;
+  text-align: center;
+}
+
+.contact-wrapper h2 {
+  font-size: 2rem;
+  color: #00ffd5;
+  margin-bottom: 25px;
+  text-shadow: 0 0 5px rgba(0, 255, 213, 0.5);
+}
+
+.contact-wrapper input,
+.contact-wrapper textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 1px solid #00ffd5;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-wrapper input::placeholder,
+.contact-wrapper textarea::placeholder {
+  color: #cccccc;
+}
+
+.contact-wrapper input:focus,
+.contact-wrapper textarea:focus {
+  border-color: #00ffd5;
+  box-shadow: 0 0 10px rgba(0, 255, 213, 0.4);
+}
+
+.contact-wrapper button {
+  background-color: #00ffd5;
+  color: #000;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.contact-wrapper button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.response-msg {
+  margin-top: 15px;
+  color: #00ffd5;
+  font-weight: 500;
+}

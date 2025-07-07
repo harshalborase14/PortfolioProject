@@ -1,0 +1,27 @@
+.about-section {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  padding: 100px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 255, 213, 0.1);
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #00ffd5;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #dddddd;
+  line-height: 1.7;
+}
