@@ -14,8 +14,8 @@ import org.json.JSONObject;
 @WebServlet("/contactServlet")
 public class PortfolioServlet extends HttpServlet {
     
-    final String username = "htborase@gmail.com";
-    final String password = "xgmo ugrr erjs kuhr";
+    final String username = "example@gmail.com";    // your email
+    final String password = "16 digit app password";   //insert the app password
 
     final String dbUrl = "jdbc:mysql://localhost:3306/portfolio";
     final String dbUser = "root";
