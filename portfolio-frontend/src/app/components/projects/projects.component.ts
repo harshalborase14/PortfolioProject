@@ -9,17 +9,17 @@ export class ProjectsComponent {
     {
       title: 'Hotel Management System',
       description: 'Web app using JSP, Servlet & Hibernate.',
-      link: '#'
+      link: 'https://github.com/harshalborase14/Hotel-Management-System'
     },
     {
       title: 'Voice Assistant (Swara)',
       description: 'Jarvis-like AI voice assistant built in JavaScript.',
-      link: '#'
+      link: 'https://github.com/harshalborase14/S.W.A.R.A..git'
     },
     {
       title: 'Book Store',
       description: 'CRUD Java App using MySQL.',
-      link: '#'
+      link: 'https://github.com/harshalborase14/Simple_Book-Store_Project.git'
     }
   ];
 }
